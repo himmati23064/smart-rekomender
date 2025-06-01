@@ -1,0 +1,57 @@
+[
+  {
+    "course": "Introduction to Machine Learning",
+    "required_interest": "AI",
+    "min_score": 70
+  },
+  {
+    "course": "Data Science with Python",
+    "required_interest": "Data",
+    "min_score": 65
+  },
+  {
+    "course": "AI for Game Development",
+    "required_interest": "Game Dev",
+    "min_score": 75
+  },
+  {
+    "course": "Machine Learning Advanced",
+    "required_interest": "AI",
+    "min_score": 80
+  },
+  {
+    "course": "Deep Learning Fundamentals",
+    "required_interest": "AI",
+    "min_score": 75
+  },
+  {
+    "course": "Frontend Web Development",
+    "required_interest": "Web",
+    "min_score": 55
+  },
+  {
+    "course": "Backend Development with Node.js",
+    "required_interest": "Web",
+    "min_score": 60
+  },
+  {
+    "course": "Unity Game Design",
+    "required_interest": "Game Dev",
+    "min_score": 65
+  },
+  {
+    "course": "Game Art and Animation",
+    "required_interest": "Game Dev",
+    "min_score": 50
+  },
+  {
+    "course": "Big Data with Spark",
+    "required_interest": "Data",
+    "min_score": 70
+  },
+  {
+    "course": "Database Management Systems",
+    "required_interest": "Data",
+    "min_score": 60
+  }
+]
