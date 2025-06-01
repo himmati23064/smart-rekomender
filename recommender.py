@@ -1,11 +1,13 @@
 import json
 
-def recommend_courses(interest, score):
-    with open("data/courses.json") as f:
-        courses = json.load(f)
+def load_courses():
+    with open("courses.json", "r") as f:
+        return json.load(f)
 
-    recommendations = []
+def recommend_courses(interest, score):
+    courses = load_courses()
+    recommended = []
     for course in courses:
         if interest.lower() in course["required_interest"].lower() and score >= course["min_score"]:
-            recommendations.append(course["course"])
-    return recommendations
+            recommended.append(course)
+    return recommended
